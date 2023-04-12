@@ -1573,3 +1573,39 @@ section div div.img_box_sobre_mobile img.img_gif {
   border-radius: 16px;
   width: 100%;
 }
+
+.portfolio_project.inspiration_page div.content section div.block2 {
+  position: static;
+}
+
+.button_salferg{
+  font-size: 1rem;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 6px;
+    padding: 7px 23px;
+    border-style: solid;
+    border-color: #b3b3b3;
+}
+
+.button_salferg:hover{
+  border-width: 1px;
+    border-style: solid;
+    border-color: #b3b3b3;
+    background-image: repeating-linear-gradient(45deg, #fff, #fff 8px, #ccc 7px, #fff 9px);
+}
+
+.portfolio_project div.content section div div.img_box_ins {
+  padding-left: 1vw;
+  padding-right: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.portfolio_project div.content section div div.img_box_ins img {
+  width: 60%;
+}
+.portfolio_project div.content section div div.img_box_ins img.img_gif {
+  width: 14% !important;
+  margin-left: 43%;
+  margin-top: 50px;
+}
