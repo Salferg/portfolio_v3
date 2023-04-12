@@ -1,0 +1,129 @@
+.about, .contact{
+    .content{
+        padding-left: $paddingGeneral;
+        padding-right: $paddingGeneral;
+        padding-top: $footerHeight;
+        padding-bottom: $footerHeight;
+        margin-top: 80px;
+        @media (max-width: $tablets){
+                padding-left: $paddingGeneral_Tablet;
+                padding-right: $paddingGeneral_Tablet;
+                padding-top:0px;
+                margin-top: 12px;
+            }
+        @media (max-width: $mobile){
+                padding-left: $paddingGeneral_Mobile;
+                padding-right: $paddingGeneral_Mobile;
+                padding-top:0px;
+                margin-top: 12px;
+            }
+        section.row{
+            margin-bottom: 20px;
+            display: inline-block;
+            div{
+                padding-left: $paddingGeneral;
+                padding-right: $paddingGeneral;
+                @media (max-width: $tablets){
+                    padding-left: $paddingGeneral_Tablet*6;
+                    padding-right: $paddingGeneral_Tablet*6;
+                }
+                @media (max-width: $mobile){
+                    padding-left: $paddingGeneral_Tablet*4;
+                    padding-right: $paddingGeneral_Tablet*4;
+                }
+                &.margin_title{
+                    margin-top: 25px;
+                    @media (max-width: $mobile){
+                        margin-top: 15px;
+                    }
+                }
+                p, address{
+                    font-style: normal;
+                    @media (max-width: $tablets){
+                        text-align: justify;
+                    }
+                    @media (max-width: $mobile){
+                        font-size: 0.9rem;
+                    }
+                    @media (min-width: $fullhd){
+                        font-size: 1.4rem;
+                    }
+                }
+                p{
+                    margin-bottom: 15px;
+                }
+                ul{
+                    li{
+                        margin-bottom: 8px;
+                        p{
+                            
+                        }
+                    }
+                }
+            }
+            div.title{
+                text-align: right;
+                @media (max-width: $tablets){
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                h2{
+                    font-size: 1.3rem;
+                    font-style: italic;
+                    font-weight: normal;
+                    margin-right: 5px;
+                    @media (max-width: $mobile){
+                        font-size: 0.9rem;
+                    }
+                    @media (min-width: $fullhd){
+                        font-size: 1.6rem;
+                    }
+                    &.img_back{
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#about_img1 {
+    @include imgs("about1");
+}
+
+////////////v2//////////////
+
+section{
+            div{
+                div.img_box_sobre{
+                    padding-left: 1vw;
+                    padding-right: 0 !important;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    img{
+                        width: 50%;
+                        margin-top: 100px;
+                    }
+                    img.img_gif{
+                        width: 14% !important;
+                        margin-left: 43%;
+                        margin-top: 50px;
+                    }
+                }
+                div.img_box_sobre_mobile{
+                    padding: 0 !important;
+                    overflow: hidden;
+                    margin-bottom: 35px;
+                    img{
+                        width: 100%;
+                    }
+                    img.img_gif{
+                        width: 14% !important;
+                        margin-left: 43%;
+                        margin-top: 50px;
+                    }
+                }
+    }
+}
+
+

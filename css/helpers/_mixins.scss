@@ -1,0 +1,49 @@
+@mixin hover_color($color){
+    &hover{
+        color: $color;
+    }
+}
+
+@mixin central($position:relative) {
+    position: $position;
+    left:50%;
+}
+
+@mixin border($color, $radius:10px){
+    border:{
+        radius: $radius;
+        color: $color;
+        style: solid;
+        width: 1px;
+    }
+}
+
+@mixin no_margin{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+@mixin body_html{
+    font-family: $font_primary;
+    font-size: $font_size_default; 
+    border: 0 none; 
+    margin: 0; 
+    padding: 0; 
+    top: 0; 
+    left: 0;
+    height: 100%;
+}
+
+@mixin project($project){
+    background-image: url(../img/projects/#{$project}.jpg);
+}
+
+@mixin imgs($imgs){
+    background-image: url(../img/#{$imgs}.jpg);
+}
+
+@mixin icons($icons){
+    background-image: url(../img/icons/#{$icons}.png);
+}
+
+

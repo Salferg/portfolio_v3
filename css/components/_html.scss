@@ -1,0 +1,249 @@
+
+*, *:before, *:after {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;} 
+
+@font-face{
+    font-family: 'ralewayLight';
+    src: url('../fonts/Raleway-Light.eot');
+	src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/Raleway-Light.woff') format('woff'), 
+	     url('../fonts/Raleway-Light.ttf')  format('truetype'),
+         url('../fonts/Raleway-Light.otf')  format('opentype'),
+	     url('../fonts/Raleway-Light.svg#quick') format('svg');
+}
+
+@font-face{
+    font-family: 'ralewaySemi';
+    src: url('../fonts/Raleway-SemiBold.eot');
+	src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/Raleway-SemiBold.woff') format('woff'), 
+	     url('../fonts/Raleway-SemiBold.ttf')  format('truetype'),
+         url('../fonts/Raleway-SemiBold.otf')  format('opentype'),
+	     url('../fonts/Raleway-SemiBold.svg#quick') format('svg');
+}
+
+html, body{
+    @include body_html; 
+    background-color: $c_1;
+    }
+
+body{
+}
+
+.wrapper{
+    min-height: 100% !important;
+}
+
+.main{
+    overflow:auto;
+	padding-bottom: $footerHeight;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.hide{
+    display: none;
+}
+
+.visible{
+    display: inline-block;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+}
+
+.visible_mobile, .visible_tablet, .visible_desktop, .visible_hd, .visible_mobile_block, .visible_tablet_block, .visible_desktop_block, .visible_hd_block{
+    display: none;
+}
+
+.visible_mobile{
+    @media (max-width: $mobile){ 
+        display: inline-block !important;
+    }
+}
+
+.visible_tablet{
+    @media (min-width: $mobile + 1px) and (max-width: $tablets){
+        display: inline-block !important;
+    }
+}
+
+.visible_desktop{
+    @media (min-width: $tablets + 1px) and (max-width: $fullhd - 1px){
+        display: inline-block !important;
+    }
+}
+
+.visible_hd{
+    @media (min-width: $fullhd){
+        display: inline-block !important;
+    }
+}
+
+.hidden_tablet{
+    display: inline-block;
+    @media (max-width: $tablets){ 
+        display: none !important;
+    }
+}
+
+.visible_mobile_block{
+    @media (max-width: $mobile){ 
+        display: block !important;
+    }
+}
+
+.visible_tablet_block{
+    @media (min-width: $mobile + 1px) and (max-width: $tablets){
+        display: block !important;
+    }
+}
+
+.visible_desktop_block{
+    @media (min-width: $tablets + 1px) and (max-width: $fullhd - 1px){
+        display: block !important;
+    }
+}
+
+.visible_hd_block{
+    @media (min-width: $fullhd){
+        display: block !important;
+    }
+}
+
+.hidden_tablet_block{
+    display: block;
+    @media (max-width: $tablets){ 
+        display: none !important;
+    }
+}
+
+.img_back{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    width: 36vw;
+    height: 8vw;
+    margin-top: 5px;
+    @media (max-width: $tablets){
+        background-position: 50% 50%;
+        background-size: cover;
+        width: 78vw;
+        height: 29vw;
+    }
+}
+
+.img_icon{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    display: block;
+    float: left;
+}
+
+.img_proyect_detail{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    width: 36vw;
+    height: 8vw;
+    margin-top: 5px;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.mouse_up{
+    position: fixed;
+    bottom: 58px;
+    right: 0.9vw;
+    z-index: 100000;
+    @media (max-width: $tablets){
+        bottom: 65px;
+        right: 2vw;
+    }
+    @media (max-width: $mobile){
+        bottom: 55px;
+        right: 2vw;
+    }
+    a{
+        width: 40px;
+        height: 40px;
+        background-color: $c_10;
+        border-radius: 20px;
+        img{
+            width: 30px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+    }
+}
+
+.margin_top_80{
+    @media (max-width: $tablets){
+        margin-top: 0px;
+    }
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+h5{
+    font-size: 1.2rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+nav, ul, li, buttons, a, p, a, h1, h2, h3, h4, h5, h6{
+    color: $font_color_primary;
+    font-family: $font_primary;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p{
+    line-height: 21px;
+    @media (min-width: $fullhd){
+        line-height: 27px;
+    }
+}
+
+span.bold_font{
+    font-family: 'ralewaySemi';
+}
+
+a.bold_font{
+    font-family: 'ralewaySemi';
+    text-decoration: underline;
+    float:none !important;
+    &:hover{
+        color:$c_10;
+    }
+}
+
+.margin0{
+    margin: 0 !important;
+}

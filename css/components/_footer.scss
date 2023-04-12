@@ -1,0 +1,24 @@
+footer{
+    height: $footerHeight;
+    position: relative;
+    background-color: $c_1;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: $c_3;
+    margin-top: $footerHeight*(-1)!important;
+    padding-top: 15px !important;
+    text-align: center;
+    clear:both;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    p{
+        font-size: 0.9rem;
+        color: $c_7;
+        display: block !important;
+        line-height: 14px;
+        @media (max-width: $mobile){
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+    }
+}

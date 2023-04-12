@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://salferg.com/</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://salferg.com/sobre-mi.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/contacto.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/sushigaiden.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/cmsa.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/letsflow.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/rocabona.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/festopApp.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/lauramond.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/ambelvermu.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/capsule.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/orangeterror.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/festop.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/balance.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/projects/ambel.html</loc>
+  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

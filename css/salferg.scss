@@ -1,0 +1,41 @@
+/*----------------------------------------------------------------------------------------------------------
+
+    Web Design: Salvador Fernández García | Salferg
+    CSS written in SASS | Map:
+
+    //HELPERS
+    @import "helpers/variables";
+    @import "helpers/mixins";
+
+    //COMPONENTS
+    @import "components/html";
+    @import "components/grid";
+    @import "components/header";
+    @import "components/footer";
+
+    //PAGES
+    @import "pages/home";
+    @import "pages/about";
+    @import "pages/contact";
+    @import "pages/project";
+
+---------------------------------------------------------------------------------------------------------------*/
+
+//HELPERS Core variables and mixins
+@import "helpers/variables";
+@import "helpers/mixins";
+
+//COMPONENTS
+@import "components/html";
+@import "components/grid";
+@import "components/header";
+@import "components/footer";
+
+//PAGES
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/project";
+
+
+

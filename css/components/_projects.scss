@@ -1,0 +1,38 @@
+@mixin project($project){
+    background-image: url(../img/projects/#{$project}.jpg);
+}
+
+/*#project-1 {
+    @include project("1");
+}
+#project-2 {
+    @include project("2");
+}
+#project-3 {
+    @include project("3");
+}
+#project-4 {
+    @include project("4");
+}
+#project-5v {
+    @include project("5v");
+}
+#project-5 {
+    @include project("5");
+}
+#project-6 {
+    @include project("6");
+}
+#project-7 {
+    @include project("7");
+}*/
+
+
+
+
+/*//////////IMGS////////////////*/
+
+/*#about_img1 {
+    @include imgs("about1");
+}*/
+

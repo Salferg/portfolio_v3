@@ -1,0 +1,61 @@
+
+//Colors
+$c_0: #000;
+$c_1: #fff;
+$c_2: #f8f8f8;
+$c_3: #f2f2f2;
+$c_4: #e6e6e6;
+$c_5: #ccc;
+$c_6: #b3b3b3;
+$c_7: #999;
+$c_8: #808080;
+$c_9: #666666;
+$c_10: #4d4d4d;
+$c_11: #333;
+$c_12: #1a1a1a;
+$c_12d: darken($c_12, 6%);
+$c_12dd: #0a0a0a;
+$c_red: #ac2925;
+$c_red_hover: #c9302c;
+
+
+//FONTS
+$font_primary: "ralewayLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font_bold: "ralewaySemi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font_size_default: 12pt;
+$font_color_primary: $c_12dd;
+
+//BREAKPOINTS
+$mobile: 550px;
+$tablets: 992px;
+$desktop: 1200px;
+$fullhd: 1600px;
+
+//GENERAL
+$paddingLeftTopHome: 0.75vw;
+$paddingLeftTopHome_Tablet: 4.3vw;
+$paddingLeftTopHome_Mobile: 5.3vw;
+$footerHeight: 51px;
+$paddingGeneral: 2vw;
+$paddingGeneral_Tablet: 2vw;
+$paddingGeneral_Mobile: 1vw;
+
+//ITEM DESCRIPTION
+$marginItem: 1.5vw;
+$itemWidth: 28.7vw;
+$itemHeightNumber: 1.62;
+
+//ITEM DESCRIPTION TABLET
+$marginItem_Tablet: 2.5vw;
+$itemWidth_Tablet: 43.1vw;
+$itemHeightNumber_Tablet: 1.62;
+
+//ITEM DESCRIPTION MOBILE
+$marginItem_Mobile: 4vw;
+$itemWidth_Mobile: (100-($paddingLeftTopHome_Mobile*2))-3;
+$itemHeightNumber_Mobile: 1.62;
+
+//ITEM DESCRIPTION FULLHD
+$marginItem_Full: 1.5vw;
+$itemWidth_Full: 21.19vw;
+$itemHeightNumber_Full: 1.62;

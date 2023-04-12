@@ -1,0 +1,258 @@
+.project{
+    height: $itemWidth/$itemHeightNumber;
+    overflow: hidden;
+    width: 100%;
+    @media (max-width: $tablets){
+        width: 100%;
+        height: $itemWidth_Tablet/$itemHeightNumber;
+    }
+    @media (max-width: $mobile){
+        width: 100%;
+        height: $itemWidth_Mobile/$itemHeightNumber;
+    }
+    /*@media (min-width: $fullhd) and (orientation: landscape){
+        width: 100%;
+        height: $itemWidth_Full/$itemHeightNumber;
+    }*//////////////4 COLUMNS DESIGN/////*/
+    img{
+        width: 100%;
+    }
+}
+.project_v{
+    height: (($itemWidth/$itemHeightNumber)*2)+($marginItem) !important;
+    overflow: hidden;
+    width: 100%;
+    @media (max-width: $tablets){
+        height: (($itemWidth_Tablet/$itemHeightNumber)*2)+($marginItem_Tablet) !important;
+    }
+    @media (max-width: $mobile){
+        height: (($itemWidth_Mobile/$itemHeightNumber)*2)+($marginItem_Mobile) !important;
+    }
+    /*@media (min-width: $fullhd) and (orientation: landscape){
+         height: (($itemWidth_Full/$itemHeightNumber)*2)+($marginItem_Full) !important;
+    }*/ /////////////4 COLUMNS DESIGN/////*/
+    img{
+        width: 100%;
+    }
+    .titles_project{
+        bottom: 4% !important;
+    }
+}
+
+.project, .project_v{
+    .project_intro{
+        //display: none;
+        background-color: rgba(245, 245, 245, 0.9);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity:0;
+        -webkit-transition: ease 0.2s;
+        -moz-transition: ease 0.2s;
+        -o-transition: ease 0.2s;
+        transition: ease-out 0.2s;
+        .titles_project{
+            position: absolute;
+            right: 6%;
+            bottom: 8%;
+            h6{
+                display: block;
+                clear: both;
+                text-align: right;
+                font-weight: normal;
+                @media (min-width: $fullhd) and (orientation: landscape){
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        
+    }
+    .action_project{
+            display: none;
+            opacity: 0;
+        }
+        @media (max-width: $tablets){
+            .action_project{
+                opacity: 1;
+                display: block;
+                position: absolute;
+                bottom: 12px;
+                right: 12px;
+              
+                    
+                    img{
+                        width: 55px;
+                        position: absolute;
+                        right: 50%;
+                        bottom: 50%;
+                        margin-top: -30px;
+                        margin-left: -25px;
+                    }
+                
+            }
+        }
+}
+
+.project:hover .project_intro, .project_v:hover .project_intro{
+    //display: block;
+    opacity:1;
+}
+
+/*.project:hover img, .project_v:hover img{
+    display: none;
+}*/
+/*.project{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: $itemWidth/$itemHeightNumber;
+    @media (max-width: $tablets){
+        width: 100%;
+        height: $itemWidth_Tablet/$itemHeightNumber;
+    }
+    @media (max-width: $mobile){
+        width: 100%;
+        height: $itemWidth_Mobile/$itemHeightNumber;
+    }
+    @media (min-width: $fullhd) and (orientation: landscape){
+        width: 100%;
+        height: $itemWidth_Full/$itemHeightNumber;
+    }
+}
+
+.project_v{
+    @extend .project;
+    height: (($itemWidth/$itemHeightNumber)*2)+($marginItem) !important;
+    @media (max-width: $tablets){
+        height: (($itemWidth_Tablet/$itemHeightNumber)*2)+($marginItem_Tablet) !important;
+    }
+    @media (max-width: $mobile){
+        height: (($itemWidth_Mobile/$itemHeightNumber)*2)+($marginItem_Mobile) !important;
+    }
+    @media (min-width: $fullhd) and (orientation: landscape){
+         height: (($itemWidth_Full/$itemHeightNumber)*2)+($marginItem_Full) !important;
+    }
+}*/
+
+.content{
+    padding: 87px 0vw 0vw $paddingLeftTopHome*5.5;
+    margin-bottom: $marginItem;
+    @media (max-width: $tablets){
+        padding: 3.3vw 0vw 0vw $paddingLeftTopHome_Tablet;
+        margin-bottom: $marginItem_Tablet;
+    }
+    @media (max-width: $mobile){
+        padding: 12vw 0vw 0vw $paddingLeftTopHome_Mobile;
+        margin-bottom: $marginItem_Mobile;
+    }
+    @media (min-width: $fullhd){
+        padding: 115px 0vw 0vw 4.58vw;
+    }
+    section#project_body{
+        width: (100-($paddingLeftTopHome*12))+0.05; 
+        @media (max-width: $tablets){
+            width: 91.7vw;
+        }
+        @media (max-width: $mobile){
+            width: (100-($paddingLeftTopHome_Mobile*2))-0.2;
+        }
+        nav.filter_grid{
+            /*position: relative;
+            top: -1vw;
+            right: 1.25vw;
+            text-align: right;
+            width: (100-($paddingLeftTopHome*12))+0.05;
+            z-index: 500;*/
+            
+            /*position: relative;
+            top: -56px; //-34px
+            right: -53.75vw;
+            text-align: right;
+            width: 36.05vw;
+            z-index: 500;*/
+            
+            position: fixed;
+            top: 30px;
+            right: 5vw;
+            text-align: right;
+            width: 36.05vw;
+            z-index: 501;
+            @media (max-width: $tablets){
+                width: (100-($paddingLeftTopHome*7));
+                text-align: center;
+                top: -96px;
+                right: 0vw;
+                position: relative;
+            }
+            @media (max-width: $mobile){
+                width: (100-($paddingLeftTopHome*8));
+                top: -90px;
+                position: relative;
+            }
+            @media (min-width: $fullhd){
+                top: 45px;
+            }
+            ul{
+                @media (max-width: $tablets){
+                    
+                }
+                li.no_margin{
+                    margin-left: 0;
+                }
+                li{
+                    margin-left: $itemHeightNumber+vw;
+                    @media (max-width: $tablets){
+                        margin-left: 18pt;
+                    }
+                    @media (max-width: $mobile){
+                        margin-left: 9pt;
+                    }
+                    a{
+                       color: $c_7;
+                       font-size: $font_size_default;
+                        &:hover{
+                            border-width: 0px 0px 1px 0px;
+                            border-style: solid;
+                            border-color: $c_6;
+                        }
+                        @media (max-width: $tablets){
+                            font-size: 1rem;
+                            border-width: 1px 1px 1px 1px;
+                            border-radius: 6px;
+                            padding: 7px 23px;
+                            border-style: solid;
+                            border-color: $c_6;
+                             &:hover{
+                            border-width: 1px;
+                            border-style: solid;
+                            border-color: $c_6;
+                            //background-image: repeating-radial-gradient($c_1, $c_1 21%, $c_5 25%);
+                            background-image: repeating-linear-gradient(45deg, $c_1, $c_1 8px, $c_5 7px, $c_1 9px)
+                            }
+                        }
+                        @media (max-width: $mobile){
+                            font-size: 0.8rem;
+                            padding: 10px 18px;
+                        }
+                        @media (max-width: 400px){
+                            font-size: 0.8rem;
+                            padding: 8px 12px;
+                        }
+                        @media (max-width: 350px){
+                            font-size: 0.8rem;
+                            padding: 8px 9px;
+                        }
+                        @media (min-width: $fullhd){
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    a{
+        float: left;
+    }
+    
+}

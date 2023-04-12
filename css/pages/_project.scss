@@ -1,0 +1,94 @@
+.portfolio_project{
+    div.content{
+        margin-top: 55px;
+        @media (max-width: $tablets){
+            margin-top: 27px;
+        }
+        @media (max-width: $mobile){
+            margin-top: 22px;
+        }
+        @media (min-width: $fullhd){
+            margin-top: 90px;
+        }
+        section{
+            div{
+                div.img_box{
+                    padding-left: 1vw;
+                    padding-right: 0;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    img{
+                        width: 100%;
+                    }
+                    img.img_gif{
+                        width: 14% !important;
+                        margin-left: 43%;
+                        margin-top: 50px;
+                    }
+                    
+                }
+                h5{
+                    font-weight: normal;
+                    font-style: italic;
+                    font-size: 1.6rem;
+                    @media (min-width: $fullhd){
+                        font-size: 2rem;;
+                    }
+                }
+                h6{
+                    display: block;
+                    font-weight: normal;
+                    font-style: italic;
+                    @media (max-width: $tablets){
+                        text-align: center;
+                    }
+                }
+                p{
+                    margin-top: 15px;
+                }
+                div.video{
+                    overflow: hidden;
+                    text-align: center;
+                    video{
+                        width: 400px;
+                        @media (min-width: $fullhd){
+                            width: 470px;
+                        }
+                        @media (max-width: $mobile){
+                            width: 300px;
+                        }
+                        @media (max-width: 370px){
+                            width: 250px;
+                        }
+                    }
+                    
+                }
+                .desktop_v{
+                        display: block;
+                        @media (max-width: $tablets){
+                            display: none;
+                        }
+                    }
+                    .tablets_v{
+                        display: none;
+                        @media (max-width: $tablets){
+                            display: block;
+                        }
+                    }
+            }
+            div.block2{
+                position: fixed;
+                @media (max-width: $tablets){
+                    position: static;
+                    margin-top: 20px;
+                }
+                h5{
+                    @media (max-width: $tablets){
+                        text-align: center;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
