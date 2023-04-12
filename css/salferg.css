@@ -1286,7 +1286,8 @@ footer p {
 }
 @media (max-width: 550px) {
   .about .content section.row div p, .about .content section.row div address, .contact .content section.row div p, .contact .content section.row div address {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
   }
 }
 @media (min-width: 1600px) {
@@ -1317,7 +1318,7 @@ footer p {
 }
 @media (max-width: 550px) {
   .about .content section.row div.title h2, .contact .content section.row div.title h2 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1600px) {
@@ -1337,7 +1338,8 @@ footer p {
 
 @media (max-width: 550px) {
   .about .content section.row div.title h3, .contact .content section.row div.title h3 {
-    font-size: 0.7rem;
+    font-size: 1.05rem;
+    line-height: 1.7rem;
   }
 }
 @media (min-width: 1600px) {
@@ -1580,18 +1582,17 @@ section div div.img_box_sobre_mobile img.img_gif {
 
 .button_salferg{
   font-size: 1rem;
-    border-width: 1px 1px 1px 1px;
-    border-radius: 6px;
-    padding: 7px 23px;
-    border-style: solid;
-    border-color: #b3b3b3;
+    border-width: 0px;
+    border-radius: 60px;
+    padding: 12px 24px;
+    background-color: #F7CA00;
+    text-align: left;
 }
 
 .button_salferg:hover{
-  border-width: 1px;
+  border-width: 0px;
     border-style: solid;
-    border-color: #b3b3b3;
-    background-image: repeating-linear-gradient(45deg, #fff, #fff 8px, #ccc 7px, #fff 9px);
+    background-color: #ffe365;
 }
 
 .portfolio_project div.content section div div.img_box_ins {
@@ -1602,10 +1603,53 @@ section div div.img_box_sobre_mobile img.img_gif {
   text-align: right;
 }
 .portfolio_project div.content section div div.img_box_ins img {
-  width: 60%;
+  width: 40%;
 }
 .portfolio_project div.content section div div.img_box_ins img.img_gif {
   width: 14% !important;
   margin-left: 43%;
   margin-top: 50px;
 }
+
+@media (max-width: 992px) {
+  .portfolio_project div.content section div div.img_box_ins {
+    padding-left: 1vw;
+    padding-right: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .portfolio_project div.content section div div.img_box_ins img {
+    width: 50%;
+  }
+  .button_salferg{
+      text-align: center;
+  }
+  }
+
+  .about.inspiration_page .content section.row, .contact .content section.row {
+    margin-bottom: 64px;
+    display: inline-block;
+}
+
+@media (max-width: 550px) {
+  .button_salferg{
+    font-size: 1rem;
+      border-width: 0px;
+      border-radius: 60px;
+      padding: 16px 24px;
+      margin-top: 16px;
+      background-color: #F7CA00;
+      text-align: center;
+      width: 100%;
+  }
+  .portfolio_project div.content section div div.img_box_ins img {
+    width: 40%;
+  }
+  .about.inspiration_page .content section.row, .contact .content section.row {
+    margin-bottom: 96px;
+    display: inline-block;
+}
+  
+  }
+

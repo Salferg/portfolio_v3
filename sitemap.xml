@@ -8,78 +8,83 @@
 
 <url>
   <loc>https://salferg.com/</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://salferg.com/sobre-mi.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://salferg.com/proyectos.html</loc>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://salferg.com/contacto.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://salferg.com/inspiration.html</loc>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/sushigaiden.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/cmsa.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/letsflow.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/rocabona.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/festopApp.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/lauramond.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/ambelvermu.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/capsule.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/orangeterror.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/festop.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/balance.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://salferg.com/projects/ambel.html</loc>
-  <lastmod>2020-07-20T16:37:47+00:00</lastmod>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://salferg.com/contacto.html</loc>
+  <lastmod>2023-03-20T16:37:47+00:00</lastmod>
+  <priority>0.70</priority>
 </url>
 
 
