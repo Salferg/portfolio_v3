@@ -225,9 +225,9 @@ nav, ul, li, buttons, a, p, a, h1, h2, h3, h4, h5, h6{
 }
 
 p{
-    line-height: 21px;
+    line-height: 28px;
     @media (min-width: $fullhd){
-        line-height: 27px;
+        line-height: 32px;
     }
 }
 
@@ -246,4 +246,8 @@ a.bold_font{
 
 .margin0{
     margin: 0 !important;
+}
+
+.marginBottomX{
+    margin-bottom: 16px;
 }

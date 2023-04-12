@@ -19,10 +19,10 @@ $c_red: #ac2925;
 $c_red_hover: #c9302c;
 
 
-//FONTS
+//FONTSs
 $font_primary: "ralewayLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font_bold: "ralewaySemi", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font_size_default: 12pt;
+$font_size_default: 14pt;
 $font_color_primary: $c_12dd;
 
 //BREAKPOINTS
@@ -31,11 +31,11 @@ $tablets: 992px;
 $desktop: 1200px;
 $fullhd: 1600px;
 
-//GENERAL
+//GENERAL/
 $paddingLeftTopHome: 0.75vw;
 $paddingLeftTopHome_Tablet: 4.3vw;
 $paddingLeftTopHome_Mobile: 5.3vw;
-$footerHeight: 51px;
+$footerHeight: auto;
 $paddingGeneral: 2vw;
 $paddingGeneral_Tablet: 2vw;
 $paddingGeneral_Mobile: 1vw;

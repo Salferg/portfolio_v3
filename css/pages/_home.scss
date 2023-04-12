@@ -181,13 +181,13 @@
             @media (max-width: $tablets){
                 width: (100-($paddingLeftTopHome*7));
                 text-align: center;
-                top: -96px;
+                top: -46px;
                 right: 0vw;
                 position: relative;
             }
             @media (max-width: $mobile){
                 width: (100-($paddingLeftTopHome*8));
-                top: -90px;
+                top: -40px;
                 position: relative;
             }
             @media (min-width: $fullhd){

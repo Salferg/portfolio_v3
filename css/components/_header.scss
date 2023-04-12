@@ -81,7 +81,8 @@ header{
     }
     nav{
         text-align: right;
-        padding-right: $paddingGeneral !important;
+        //padding-right: $paddingGeneral !important;
+        padding-right: 0 !important;
         @media (max-width: $tablets){
             width: 100% !important;
             padding-right: 0 !important;
@@ -161,7 +162,7 @@ header{
                 }
             }
             li{
-                font-size: 1.2rem;
+                font-size: 1.1rem;
                 @media (min-width: $tablets + 1px){
                     font-size: 1.03rem;
                 }
@@ -199,31 +200,31 @@ header{
                     font-size: 1.24rem;
                 }
                 @media (min-width: 1315px){
-                    font-size: 1.28rem;
+                    font-size: 1.24rem;
                 }
                 @media (min-width: 1345px){
-                    font-size: 1.31rem;
+                    font-size: 1.28rem;
                 }
                 @media (min-width: 1360px){
                     font-size: 1.33rem;
                 }
                 @media (min-width: 1400px){
-                    font-size: 1.36rem;
+                    font-size: 1.33rem;
                 }
                 @media (min-width: 1425px){
-                    font-size: 1.39rem;
+                    font-size: 1.33rem;
                 }
                 @media (min-width: 1450px){
-                    font-size: 1.41rem;
+                    font-size: 1.37rem;
                 }
                 @media (min-width: 1475px){
-                    font-size: 1.44rem;
+                    font-size: 1.37rem;
                 }
                 @media (min-width: 1500px){
-                    font-size: 1.47rem;
+                    font-size: 1.37rem;
                 }
                 @media (min-width: $fullhd){
-                    font-size: 1.6rem;
+                    font-size: 1.47rem;
                 }
                 /*@media (min-width: 1625px){
                     font-size: 1.52rem;
