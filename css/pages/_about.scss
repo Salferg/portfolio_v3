@@ -28,8 +28,8 @@
                     padding-right: $paddingGeneral_Tablet*6;
                 }
                 @media (max-width: $mobile){
-                    padding-left: $paddingGeneral_Tablet*4;
-                    padding-right: $paddingGeneral_Tablet*4;
+                    padding-left: $paddingGeneral_Tablet*2;
+                    padding-right: $paddingGeneral_Tablet*2;
                 }
                 &.margin_title{
                     margin-top: 25px;
@@ -40,7 +40,7 @@
                 p, address{
                     font-style: normal;
                     @media (max-width: $tablets){
-                        text-align: justify;
+                        text-align: left;
                     }
                     @media (max-width: $mobile){
                         font-size: 1.1rem;
